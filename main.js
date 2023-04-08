@@ -21,3 +21,7 @@ function writeText(){
   
 }
 setInterval(writeText,150);
+
+function validate(){
+alert("Login successful");
+}
