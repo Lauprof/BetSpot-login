@@ -1,0 +1,109 @@
+
+*{
+  
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html{
+  background-color: #042045;
+  
+  
+}
+#welcome{
+  color: white;
+  text-align: left;
+ text-shadow: 1.1px 1.2px blue;
+  padding: 15px;
+}
+
+#header1{
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+#intro{
+ color: white; 
+  padding:10px;
+  font-family:sans-serif;
+}
+form{
+  margin:15px;
+}
+label{
+  color: white;
+  font-size: 1.2em;
+  
+}
+input[type="password"]{
+  width:90%;
+  padding:13px;
+  background-color: whitesmoke;
+  border:1px solid white;
+  border-radius: 10px;
+  
+  
+}
+input[type="number"]{
+  width:90%;
+  padding:13px;
+  background-color: whitesmoke;
+  border:1px solid white;
+  border-radius: 10px;
+  
+  
+}
+#forgot{
+  text-decoration: none;
+  color: green;
+  
+}
+
+input[type="number"]:focus{
+  
+  outline-style:none;
+  
+  
+  
+}
+
+input[type="password"]:focus{
+  outline-style: none;
+  
+  
+}
+
+input[type="submit"]{
+  padding: 10px;
+  color: white;
+  background-color: green;
+  width:100%;
+  border:1px solid green;
+  border-radius: 13px;
+  
+}
+#end{
+  color: white;
+  padding:15px;
+}
+#end a{
+  text-decoration: none;
+  color: white;
+  
+  
+}
+@media screen and (min-width:788px){
+  #content{
+    
+    position: absolute;
+    top:30%;
+    left:50%;
+    font-size: 22px;
+    transform: translate(-50%,-50%);
+  }
+  
+  
+  
+  
+}

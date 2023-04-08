@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>LOGIN</title>
+  
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="content">
+    
+  
+ <p id="header1">LOGIN</p>
+ <div style="width:100%;height:50px;">
+<p id="welcome"></p>
+</div>
+ <canvas id="myCanvas" width="200" height="100"
+style="border-style: none;"/>
+
+ <br><br><br>
+ <p id="intro">Enter your phone number and password below to login to your existing account.Otherwise click on Register with the same details to create a new account.</p>
+  
+  <form action="" method="post">
+    
+    <label for="Phone Number">Phone number</label><br><br
+    <input type="number" name="phonenumber" id="phonenumber" value=""  placeholder="Enter your phone number"/><br>
+    <br><br>
+    <label for="Password">Password <span style="color:green; font-weight: bold; float: right;"><a id="forgot" href="#">Forgot your password?</a></span></label><br /><br />
+    <input type="password" name="password" id="password" placeholder="Enter your password"><br><br><br>
+    <input type="checkbox" name="Keep me logged" id="Keep_me_logged_in" checked="true" /><span style="color:white;padding:2px;">Keep me logged in</span>
+    <br><br>
+    
+    <input type="submit" value="LOGIN">
+    <br><br><br><br>
+    <p id="end">Don't have an account? <a href="#">Register here.</a></p>
+    
+    
+  </form>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
