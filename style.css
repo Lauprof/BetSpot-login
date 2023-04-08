@@ -37,7 +37,7 @@ label{
   
 }
 input[type="password"]{
-  width:90%;
+  width:100%;
   padding:13px;
   background-color: whitesmoke;
   border:1px solid white;
@@ -46,7 +46,7 @@ input[type="password"]{
   
 }
 input[type="number"]{
-  width:90%;
+  width:100%;
   padding:13px;
   background-color: whitesmoke;
   border:1px solid white;
