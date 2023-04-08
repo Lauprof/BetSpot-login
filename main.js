@@ -24,4 +24,5 @@ setInterval(writeText,150);
 
 function validate(){
 alert("Login successful");
+return false;
 }
