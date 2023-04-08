@@ -24,11 +24,11 @@
   <form onsubmit="return validate()" method="post">
     
     <label for="Phone Number">Phone number</label><br><br>
-    <input type="number" name="phonenumber" id="phonenumber" value=""  placeholder="Enter your phone number"/><br>
+    <input type="number" name="phonenumber" id="phonenumber" value="" required  placeholder="Enter your phone number"/><br>
     <br><br>
     <label for="Password">Password <span style="color:green; font-weight: bold; float: right;"><a id="forgot" href="#">Forgot your password?</a></span></label><br /><br />
     <input type="password" name="password" id="password" placeholder="Enter your password"><br><br><br>
-    <input type="checkbox" name="Keep me logged" id="Keep_me_logged_in" checked="true" /><span style="color:white;padding:2px;">Keep me logged in</span>
+    <input type="checkbox" name="Keep me logged" id="Keep_me_logged_in" checked="true"  required /><span style="color:white;padding:2px;">Keep me logged in</span>
     <br><br>
     
     <input type="submit" value="LOGIN">
