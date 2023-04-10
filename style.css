@@ -1,0 +1,129 @@
+
+*{
+  
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html{
+  background-color: #042045;
+  
+  
+}
+
+@font-face{
+  
+font-family: myFirstFont;
+src:url("Itim-Regular.ttf");
+
+}
+
+#welcome{
+  color: white;
+  text-align: left;
+  font-family: myFirstFont;
+ text-shadow: 1.1px 1.2px blue;
+  padding: 15px;
+}
+
+#header1{
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-family: myFirstFont;
+  font-weight: bolder;
+}
+#intro{
+ color: white; 
+  padding:10px;
+  
+  font-family: myFirstFont;
+}
+form{
+  margin:15px;
+}
+label{
+  color: white;
+  font-size: 1.2em;
+  
+}
+input[type="password"]{
+  width:100%;
+  padding:13px;
+  background-color: whitesmoke;
+  border:1px solid white;
+  font-family: myFirstFont;
+  border-radius: 10px;
+  
+  
+}
+input[type="number"]{
+  width:100%;
+  padding:13px;
+  background-color: whitesmoke;
+  font-family: myFirstFont;
+  border:1px solid white;
+  border-radius: 10px;
+  
+  
+}
+#forgot{
+  text-decoration: none;
+  color: green;
+  font-family: myFirstFont;
+  
+}
+
+input[type="number"]:focus{
+  
+  outline-style:none;
+  
+  
+  
+}
+input:checked {
+  background-color: green;
+  height:20px;
+  
+}
+
+input[type="password"]:focus{
+  outline-style: none;
+  
+  
+}
+
+input[type="submit"]{
+  padding: 10px;
+  color: white;
+  background-color: green;
+  width:100%;
+  border:1px solid green;
+  border-radius: 13px;
+  
+}
+#end{
+  color: white;
+  padding:15px;
+}
+#end a{
+  text-decoration: none;
+  color: white;
+  
+  
+}
+@media screen and (min-width:788px){
+  #content{
+    
+    position: absolute;
+    top:30%;
+    left:50%;
+    padding:25px;
+    font-size: 22px;
+    transform: translate(-50%,-50%);
+  }
+  
+  
+  
+  
+}
