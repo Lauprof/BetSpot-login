@@ -5,9 +5,14 @@
   margin: 0px;
   box-sizing: border-box;
 }
+@font-face{
+font-family:myFont;
+src:url("Itim-Regular.tff);
+}
+
 html{
   background-color: #042045;
-  
+  font-family:myFont;
   
 }
 #welcome{
@@ -26,7 +31,7 @@ html{
 #intro{
  color: white; 
   padding:10px;
-  font-family:sans-serif;
+  font-family:myFont;
 }
 form{
   margin:15px;
